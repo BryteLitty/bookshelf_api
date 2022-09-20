@@ -10,7 +10,7 @@ import time
 
 from models import setup_db, Book
 
-
+# SETTING PAGINATION
 BOOKS_PER_SHELF = 8
 
 def paginate_books(request, selection):
